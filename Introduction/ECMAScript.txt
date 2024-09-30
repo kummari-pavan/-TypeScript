@@ -1,0 +1,18 @@
+ECMAScript:
+-----------
+ECMAScript (or ES) is like the blueprint for JavaScript and TypeScript. Think of it as a set of rules and guidelines that JavaScript 
+(and by extension, TypeScript) follows to make sure it's working the same way everywhere.
+
+how it works:
+ECMAScript is the standard (the rules).
+JavaScript is a language that follows this standard.
+
+What does ECMAScript define?
+----------------------------
+It defines things like syntax (how you write code), data types (numbers, strings, etc.), functions, and objects.
+Versions of ECMAScript:
+----------------------
+There are different versions, like ES5 and ES6 (also called ES2015), with newer features like let, const, arrow functions, and more.
+TypeScript and ECMAScript:
+-------------------------
+TypeScript follows ECMAScript but adds extra features (like types) on top.

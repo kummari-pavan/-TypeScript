@@ -1,0 +1,10 @@
+What is TypeScript?
+------------------
+TypeScript is a superset of JavaScript that adds static typing and other features to help developers write more reliable and maintainable 
+code. It allows you to specify the types of variables, function parameters, and return values, which helps catch errors at compile time 
+rather than runtime.
+
+You can use TypeScript for web development (Angular, React, Vue.js), server-side with Node.js, cross-platform mobile apps (React Native), 
+desktop apps (Electron), game development, backend services (Express.js, Nest.js), command-line tools, WebAssembly, IoT, browser extensions, 
+web APIs, static site generators, educational projects, and open-source initiatives. It enhances JavaScript with static typing, improving 
+code quality and tooling support.

@@ -1,0 +1,57 @@
+TypeScript Features
+--------------------
+Certainly! Here are some of the important features that TypeScript provides over JavaScript:
+
+1.Static Typing: 
+--------------
+TypeScript allows you to specify data types for variables, function parameters, and return values, catching type-related errors during 
+compilation.
+
+2.Type Inference:-
+--------------
+TypeScript can often infer types based on context, reducing the need for explicit type annotations.
+
+3.Interfaces and Type Annotations: 
+-------------------------------
+Define complex data structures and contracts using interfaces and custom types for better code understanding.
+
+4.Object-Oriented Programming:
+--------------------------- 
+TypeScript supports classes, inheritance, and interfaces for more structured code organisation.
+JavaScript's prototype-based system.
+
+5.Enum Types: 
+----------
+Define sets of named constants for more readable code when dealing with specific values.
+
+6.null and undefined Handling: 
+----------------------------
+Provides stricter handling of null and undefined values, improving code reliability.
+
+7.Union and Intersection Types: 
+-----------------------------
+Work with multiple types of values in a single variable.
+
+8.Generics: 
+--------
+Write reusable functions and classes that work with different types.
+
+9.Module System: 
+--------------
+Supports modern ECMAScript modules (ES6 and later) for better code organisation and dependency management.
+
+10.Enhanced Tooling: 
+----------------
+Offers autocompletion, type checking, and refactoring suggestions for efficient and error-free coding.
+
+11.Code Documentation: 
+--------------------
+Type annotations serve as self-explanatory documentation, aiding code understanding.
+
+12.Declaration Files:
+------------------
+ Describe external JavaScript libraries' shape for better integration.
+
+13.Compatibility with JavaScript: 
+-----------------------------
+TypeScript is a superset of JavaScript, allowing gradual adoption.
