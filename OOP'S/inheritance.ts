@@ -5,6 +5,42 @@
 // 4.Enabling polymorphism for flexible, varied behavior.
 // 5.Reducing maintenance costs by centralizing code in the superclass.
 
+//smart phone example
+class smartPhone{
+      
+      brand:string;
+      model:string;
+      storage:number;
+      batteryLife:number;
+
+      constructor(brand:string, model:string,storage:number,batteryLife:number){
+        this.brand=brand;
+        this.model=model;
+        this.storage=storage;
+        this.batteryLife=batteryLife;
+      }
+      powerOn(): void {
+        console.log(`${this.brand} ${this.model} is now powered on.`);
+      }
+
+      makeCall(number: string): void {
+          console.log(`Calling ${number} from ${this.brand} ${this.model}.`);
+      }
+
+      sendText(number: string, message: string): void {
+          console.log(`Sending text to ${number}: "${message}" from ${this.brand} ${this.model}.`);
+      }
+
+      browseInternet(): void {
+          console.log(`Browsing the internet on ${this.brand} ${this.model}.`);
+      }
+
+}
+
+
+
+
+
 //simpe Example
 
 class Animal{
