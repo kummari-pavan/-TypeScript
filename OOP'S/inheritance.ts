@@ -36,7 +36,24 @@ class smartPhone{
       }
 
 }
+// Child class inherits from Smartphone
+class iphone extends smartPhone{
+      constructor(brand:string, model:string,storage:number,batteryLife:number){
+        super(brand, model, storage, batteryLife);
+      }
+      //we can add our functionalities and methods here
+}
 
+const iphone15=new iphone("iphone16","gen16",256,18);
+console.log(`Brand: ${iphone15.brand}`);   
+console.log(`Model: ${iphone15.model}`);  
+console.log(`Storage: ${iphone15.storage}GB`); 
+console.log(`Battery Life: ${iphone15.batteryLife} hours`);
+
+iphone15.powerOn();           
+iphone15.makeCall("1234567890"); 
+iphone15.sendText("1234567890", "Hello!"); 
+iphone15.browseInternet(); 
 
 
 
